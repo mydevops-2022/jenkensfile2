@@ -1,0 +1,11 @@
+pipeline{
+    agent any
+
+    stages{
+        stage("hello from vs code "){
+            steps{
+                echo "hello my jenkins"
+            }
+        }
+    }
+}
